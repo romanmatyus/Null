@@ -1,0 +1,29 @@
+{
+	"name": "rm/null",
+	"type": "library",
+	"description": "Fake Null library",
+	"homepage": "https://github.com/romanmatyus/Null",
+	"license": ["MIT"],
+	"authors": [
+		{
+			"name": "Roman Mátyus",
+			"homepage": "http://romiix.org",
+			"email": "romanmatyus@romiix.org"
+		}
+	],
+	"support": {
+		"email": "romanmatyus@romiix.org",
+		"issues": "https://github.com/romanmatyus/Null/issues"
+	},
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"nette/tester": "@dev"
+	},
+	"autoload": {
+		"psr-0": {
+			"RM\\Null": "src/"
+		}
+	}
+}
